@@ -1,0 +1,41 @@
+body {
+  background-color: #c7c7c7;
+}
+
+/*Imagen (Seleccion de un selector comun) */
+img {
+  height: 150px;
+}
+
+/*Clase Fuente p (Seleccion de una clase comun)*/
+.description {
+  font-size: 20px;
+}
+
+/*Elemento id: cook-time (Seleccion de un elemento ID)*/
+#cook-time {
+  font-weight: bold;
+}
+
+/*Selector li - clase ingredientes (Padre-Hijo)*/
+.ingredients li {
+  list-style: square;
+}
+
+/*Selector p - Clase time (Clase para mismo selector)*/
+p.time {
+  color: #e60000;
+}
+
+/*Selector a - Clase (Seleccion para misma clase)*/
+.external-link {
+  color: SeaGreen;
+}
+
+/*Selector Fuente h1, h2, p y li (Seleccionando varios selectores para estilos)*/
+h1,
+h2,
+p,
+li {
+  font-family: Helvetica;
+}
